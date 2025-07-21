@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
           dataList.appendChild(li);
         });
       } catch (error) {
-        console.error("Error fetching data:", error);
+        console.error("Error fetching notes:", error);
       }
     };
   
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
           fetchData(); // Refresh the list
         }
       } catch (error) {
-        console.error("Error adding data:", error);
+        console.error("Error adding note:", error);
       }
     });
   
